@@ -20,21 +20,11 @@ public class C06_Actions extends TestBaseBeforeAfter {
         Thread.sleep(1000);
         //3- Ad, soyad, mail ve sifre kutularina deger yazalim ve kaydol tusuna basalim
         actions.sendKeys("sefa").sendKeys(Keys.TAB).sendKeys("akturk").sendKeys(Keys.TAB).sendKeys("05555555555").sendKeys(Keys.TAB)
-                .sendKeys("555555Qq/").
-                sendKeys(Keys.TAB).
-                sendKeys(Keys.TAB).
-                sendKeys("12").
-                sendKeys(Keys.TAB).
-                sendKeys("Jul")
-                .sendKeys(Keys.TAB).
-                sendKeys("2002").
-                sendKeys(Keys.TAB).
-                sendKeys(Keys.TAB).
-                sendKeys(Keys.RIGHT)
-                .sendKeys(Keys.TAB).
-                sendKeys(Keys.TAB).
-                sendKeys(Keys.TAB).
-                sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys(Keys.ENTER).perform();
+
+
+                .sendKeys("555555Qq/").sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys("12").sendKeys(Keys.TAB).sendKeys("Jul")
+                .sendKeys(Keys.TAB).sendKeys("1992").sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys(Keys.RIGHT)
+                .sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys(Keys.ENTER).perform();
 
     }
 }
